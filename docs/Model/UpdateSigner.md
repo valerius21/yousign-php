@@ -1,0 +1,18 @@
+# # UpdateSigner
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**info** | [**\OpenAPI\Client\Model\UpdateSignerInfo**](UpdateSignerInfo.md) |  | [optional]
+**insert_after_id** | **string** |  | [optional]
+**signature_level** | **string** |  | [optional] [default to 'electronic_signature']
+**signature_authentication_mode** | **string** |  | [optional]
+**redirect_urls** | [**\OpenAPI\Client\Model\NewSignerFromScratchRedirectUrls**](NewSignerFromScratchRedirectUrls.md) |  | [optional]
+**custom_text** | [**\OpenAPI\Client\Model\NewSignerFromScratchCustomText**](NewSignerFromScratchCustomText.md) |  | [optional]
+**delivery_mode** | [**\OpenAPI\Client\Model\SignerDeliveryMode**](SignerDeliveryMode.md) |  | [optional]
+**identification_attestation_id** | **string** |  | [optional]
+**email_notification** | [**\OpenAPI\Client\Model\EmailNotification1**](EmailNotification1.md) |  | [optional]
+**pre_identity_verification_required** | **bool** | Defines the way the Signer&#39;s Identity Documents will be uploaded for Verification. If set to &#x60;true&#x60;, &#x60;signature_level&#x60;should be equal to &#x60;advanced_electronic_signature&#x60; and &#x60;delivery_mode&#x60; set to &#x60;none&#x60;. | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
