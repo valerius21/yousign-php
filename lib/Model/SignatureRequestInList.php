@@ -739,7 +739,15 @@ class SignatureRequestInList implements ModelInterface, ArrayAccess, \JsonSerial
             throw new \InvalidArgumentException('non-nullable created_at cannot be null');
         }
 
-        if ((mb_strlen($created_at) < 1)) {
+        // Handle DateTime objects properly
+        if ($created_at instanceof \DateTime) {
+            $created_at_string = $created_at->format('c'); // Convert to ISO 8601 string
+        } else {
+            $created_at_string = (string) $created_at;
+        }
+
+        // Only validate string length if it's actually a string
+        if (is_string($created_at_string) && (mb_strlen($created_at_string) < 1)) {
             throw new \InvalidArgumentException('invalid length for $created_at when calling SignatureRequestInList., must be bigger than or equal to 1.');
         }
 
