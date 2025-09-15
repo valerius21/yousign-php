@@ -421,7 +421,7 @@ Class | Method | HTTP request | Description
 - [NewSignerFromScratchInfo](docs/Model/NewSignerFromScratchInfo.md)
 - [NewSignerFromScratchRedirectUrls](docs/Model/NewSignerFromScratchRedirectUrls.md)
 - [NotFoundResponse](docs/Model/NotFoundResponse.md)
-- [OTPMessage](docs/Model/OTPMessage.md)
+- [OtpMessage](docs/Model/OtpMessage.md)
 - [OtpMessage](docs/Model/OtpMessage.md)
 - [Pagination](docs/Model/Pagination.md)
 - [PaginationWithUpdatedAt](docs/Model/PaginationWithUpdatedAt.md)

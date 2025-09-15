@@ -1,6 +1,6 @@
 <?php
 /**
- * OTPMessageTest
+ * OtpMessageTest
  *
  * PHP version 8.1
  *
@@ -32,15 +32,15 @@ namespace OpenAPI\Client\Test\Model;
 use PHPUnit\Framework\TestCase;
 
 /**
- * OTPMessageTest Class Doc Comment
+ * OtpMessageTest Class Doc Comment
  *
  * @category    Class
- * @description OTPMessage
+ * @description OtpMessage
  * @package     OpenAPI\Client
  * @author      OpenAPI Generator team
  * @link        https://openapi-generator.tech
  */
-class OTPMessageTest extends TestCase
+class OtpMessageTest extends TestCase
 {
 
     /**
@@ -72,9 +72,9 @@ class OTPMessageTest extends TestCase
     }
 
     /**
-     * Test "OTPMessage"
+     * Test "OtpMessage"
      */
-    public function testOTPMessage()
+    public function testOtpMessage()
     {
         // TODO: implement
         self::markTestIncomplete('Not implemented');

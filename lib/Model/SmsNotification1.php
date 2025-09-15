@@ -58,7 +58,7 @@ class SmsNotification1 implements ModelInterface, ArrayAccess, \JsonSerializable
       * @var string[]
       */
     protected static $openAPITypes = [
-        'otp_message' => '\OpenAPI\Client\Model\OTPMessage'
+        'otp_message' => '\OpenAPI\Client\Model\OtpMessage'
     ];
 
     /**
@@ -296,7 +296,7 @@ class SmsNotification1 implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Gets otp_message
      *
-     * @return \OpenAPI\Client\Model\OTPMessage
+     * @return \OpenAPI\Client\Model\OtpMessage
      */
     public function getOtpMessage()
     {
@@ -306,7 +306,7 @@ class SmsNotification1 implements ModelInterface, ArrayAccess, \JsonSerializable
     /**
      * Sets otp_message
      *
-     * @param \OpenAPI\Client\Model\OTPMessage $otp_message otp_message
+     * @param \OpenAPI\Client\Model\OtpMessage $otp_message otp_message
      *
      * @return self
      */

@@ -229,7 +229,7 @@ docs/Model/NewSignerFromScratchCustomText.md
 docs/Model/NewSignerFromScratchInfo.md
 docs/Model/NewSignerFromScratchRedirectUrls.md
 docs/Model/NotFoundResponse.md
-docs/Model/OTPMessage.md
+docs/Model/OtpMessage.md
 docs/Model/OtpMessage.md
 docs/Model/Pagination.md
 docs/Model/PaginationWithUpdatedAt.md
@@ -571,7 +571,7 @@ lib/Model/NewSignerFromScratchCustomText.php
 lib/Model/NewSignerFromScratchInfo.php
 lib/Model/NewSignerFromScratchRedirectUrls.php
 lib/Model/NotFoundResponse.php
-lib/Model/OTPMessage.php
+lib/Model/OtpMessage.php
 lib/Model/OtpMessage.php
 lib/Model/Pagination.php
 lib/Model/PaginationWithUpdatedAt.php
@@ -909,7 +909,7 @@ test/Model/NewSignerFromScratchInfoTest.php
 test/Model/NewSignerFromScratchRedirectUrlsTest.php
 test/Model/NewSignerFromScratchTest.php
 test/Model/NotFoundResponseTest.php
-test/Model/OTPMessageTest.php
+test/Model/OtpMessageTest.php
 test/Model/PaginationTest.php
 test/Model/PaginationWithUpdatedAtTest.php
 test/Model/PostSignatureRequestsSignatureRequestIdCancelRequestTest.php
